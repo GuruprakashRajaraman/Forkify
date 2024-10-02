@@ -134,16 +134,7 @@ const init = function(){
   searchView.addHandlerSearch(controlSearchRecipes);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe)
- 
-  // async function fetchRecipe() {
-  //   try {
-  //     const data = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/664c8f193e7aa067e94e8706');
-  //     const res = await data.json(); // Parse the response as JSON
-  //     console.log(res);
-  //   } catch (error) {
-  //     console.error('Error fetching the recipe:', error);
-  //   }
-  // }
+
   
   // fetchRecipe();
 
