@@ -1,0 +1,10 @@
+[build]
+  base    = "starter"   # If your project is in a subfolder like 'starter', update accordingly
+  publish = "dist"      # The directory where your built files are output
+  command = "npm run build"  # The command to build your project
+
+[context.production]
+  environment = { NODE_ENV = "production" }
+
+[context.deploy-preview]
+  command = "npm run build-preview"
