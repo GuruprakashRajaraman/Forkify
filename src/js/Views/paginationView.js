@@ -43,9 +43,6 @@ class PaginationView extends View{
             <span>${curPage-1}</span>
           `;
         }
-
-       
-
         //other page
         if(curPage < numPages){
             return `
