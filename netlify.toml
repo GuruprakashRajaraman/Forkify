@@ -1,7 +1,7 @@
 [build]
   base    = "src"   # If your project is in a subfolder like 'starter', update accordingly
   publish = "dist"      # The directory where your built files are output
-  command = "npx run build"  # The command to build your project
+  command = "npx parcel build index.html --dist-dir ./distq"  # The command to build your project
  node_version = "8"
 [context.production]
   environment = { NODE_ENV = "production" }
